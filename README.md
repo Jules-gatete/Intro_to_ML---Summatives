@@ -29,7 +29,7 @@ This project predicts **drug prescriptions** based on patient characteristics us
 
 ---
 
-## **📌 ML vs Neural Network**
+## **📌 Conclusion**
 - **Neural Networks significantly outperformed Logistic Regression.**
 - **Adam + L1 Regularization achieved the best accuracy (`90.31%`).**
 - **Hyperparameters for Logistic Regression:**
@@ -43,16 +43,7 @@ This project predicts **drug prescriptions** based on patient characteristics us
 
 [Link to Video](https://drive.google.com/file/d/1-_9000000000000000000000000000000000000000/view?usp=sharing)
 
----
 
-## **📌 Conclusion**
-- **Neural Networks significantly outperformed Logistic Regression.**
-- **Adam + L1 Regularization achieved the best accuracy (`90.31%`).**
-- **Hyperparameters for Logistic Regression:**
-  - **Solver:** `saga`
-  - **Regularization Strength (C):** `1.5`
-  - **Max Iterations:** `5000`
-
----# **Thank You**
+---**Thank You**
 
 

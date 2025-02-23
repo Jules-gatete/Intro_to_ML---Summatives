@@ -5,7 +5,7 @@ This project predicts **drug prescriptions** based on patient characteristics us
 ---
 
 ## **📌 Dataset**
-- **Dataset:** Drug Prescription Dataset
+- **Dataset:** [Drugs Prediction Dataset](https://www.kaggle.com/code/dharshanadhanendran/drugs-prediction-dataset/input)
 - **Features:** Disease, Age, Gender, Severity
 - **Target Variable:** Drug Prescribed
 - **Goal:** Optimize ML & Neural Network models for best accuracy.

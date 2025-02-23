@@ -39,35 +39,8 @@ This project predicts **drug prescriptions** based on patient characteristics us
 
 ---
 
-## **📌 Best Model Predictions**
-```python
-from tensorflow.keras.models import load_model
-import pandas as pd
-import numpy as np
+## **📌 Video Presentation**
 
-# Load Best Model
-best_model = load_model("saved_models/best_model_adam.h5")
-
-# Make Predictions
-y_pred_probs = best_model.predict(X_test)
-y_pred = np.argmax(y_pred_probs, axis=1)
-
-# Convert Predictions & Actual Labels Back to Original Categories
-y_test_original = [label_encoders["drug"].inverse_transform([label])[0] for label in y_test]
-y_pred_original = [label_encoders["drug"].inverse_transform([label])[0] for label in y_pred]
-
-# Create a DataFrame to Show Side-by-Side Results
-predictions_df = pd.DataFrame({
-    "Actual Drug Prescribed": y_test_original,
-    "Predicted Drug Prescribed": y_pred_original
-})
-
-# Display Sample of Predictions
-import ace_tools as tools  # For displaying in Colab
-tools.display_dataframe_to_user(name="Predictions", dataframe=predictions_df)
-
-
-## **Video Presentation**
 [Link to Video](https://drive.google.com/file/d/1-_9000000000000000000000000000000000000000/view?usp=sharing)
 
 ---
@@ -76,4 +49,10 @@ tools.display_dataframe_to_user(name="Predictions", dataframe=predictions_df)
 - **Neural Networks significantly outperformed Logistic Regression.**
 - **Adam + L1 Regularization achieved the best accuracy (`90.31%`).**
 - **Hyperparameters for Logistic Regression:**
+  - **Solver:** `saga`
+  - **Regularization Strength (C):** `1.5`
+  - **Max Iterations:** `5000`
+
+---# **Thank You**
+
 

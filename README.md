@@ -41,7 +41,7 @@ This project predicts **drug prescriptions** based on patient characteristics us
 
 ## **📌 Video Presentation**
 
-[Link to Video]([https://youtu.be/5q9uD9B_kFc](https://youtu.be/hvgPd-ZIGas))
+[Link to Video]([https://youtu.be/5q9uD9B_kFc](https://youtu.be/hvgPd-ZIGas)
 
 
 ---**Thank You**
